@@ -6,7 +6,7 @@
   <groupId>com.mcalineyt.maven_versioning_test</groupId>
   <artifactId>test</artifactId>
   <packaging>jar</packaging>
-  <version>1.2.0</version>
+  <version>1.2-SNAPSHOT</version>
   <name>Maven Versioning Test</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -16,12 +16,21 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-release-plugin</artifactId>
+      <version>2.5</version>
+      <type>maven-plugin</type>
+    </dependency>
+
   </dependencies>
 
   <scm>
-    <connection>scm:git:git://github.com/tmcaliney/maven_versioning_test.git</connection>
+    <connection>scm:git:ssh://github.com/tmcaliney/maven_versioning_test.git</connection>
   </scm>
 
+<!--
   <build>
     <plugins>
         <plugin>
@@ -38,5 +47,7 @@
         </plugin>
     </plugins>
   </build>
+
+-->
 
 </project>
