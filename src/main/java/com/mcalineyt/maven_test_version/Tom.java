@@ -11,6 +11,7 @@ import java.lang.*;
  * This simple HTTP server supports GET and HEAD requests.
  *
  * @author Dustin R. Callaway
+ * copied by tmcaliney3
  */
 public class Tom implements Runnable
 {
