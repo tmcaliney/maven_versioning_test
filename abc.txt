@@ -1,2 +1,2 @@
-Fri Mar  7 12:22:04 CST 2014
-* release1.3
+20140307-123313
+README.md abc.txt pom.xml pom.xml.releaseBackup release.properties src target develop
